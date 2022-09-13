@@ -2,10 +2,13 @@
   include_once 'header.php' ;
 ?>
   
-  <h1>Bla-di-bla</h1>
+  <section class="brødtekst">
+    <h1>Bla-di-bla</h1>
+    Her er indholdet.
+  </section>
   
 
-    <div id="result"></div>
+
 
   
 
