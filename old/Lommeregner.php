@@ -10,10 +10,13 @@
 <body>
   <nav>
     <ul>
-        <li><a href="index.html">Forside</a></li>
-        <li><a href="Lommeregner.html">Simpel lommeregner</a></li>
+        <li><a href="index.php">Forside</a></li>
+        <li><a href="Lommeregner.php">Simpel lommeregner</a></li>
+        <li><a href="content.php">Indhold</a></li>
+
     </ul>
   </nav>
+
 
   <form>
     Value 1: <input type="text" id="value1">
