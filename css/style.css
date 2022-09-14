@@ -10,6 +10,12 @@ body {
     color: black;
    }
 
+.wrapper {
+    margin: 0 auto 0 60px;
+    width: 1000px;
+    background-color: aqua;
+}
+
 ul {
     margin-left: 60px ;
 }
@@ -33,7 +39,7 @@ ul li a {
     font-size: 20px;
     font-family: arial;
     color: whitesmoke;
-    padding: 0 10px;
+    
 }
 
 ul li a:hover {
@@ -44,5 +50,8 @@ ul li a:hover {
     font-size: 20px;
     font-family: arial;
     color: black;
-    padding: 0 10px;
+}
+
+.loginform {
+
 }
