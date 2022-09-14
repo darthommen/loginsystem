@@ -11,11 +11,11 @@
 <body>
   <nav>
     <div class="wrapper">
-    <ul>
-        <li><a href="index.php">Forside</a></li>
-        <li><a href="signup.php">Sign up</a></li>
-        <li><a href="login.php">Log in</a></li>
-    </ul>
+      <ul>
+          <li><a href="index.php">Forside</a></li>
+          <li><a href="signup.php">Sign up</a></li>
+          <li><a href="login.php">Log in</a></li>
+      </ul>
     </div>
   </nav>
 
