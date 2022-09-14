@@ -3,7 +3,7 @@ function login() {
     var pw = document.getElementById("kode").value;
    
     if ((un=='informatik') && (pw=='1234')) {
-        window.open("content.html");
+        window.open("content.php");
     }  else if ((un=='informatik')) {
         document.getElementById("result").innerHTML ="Forkert password";
     }  else if ((pw=='1234')) {
