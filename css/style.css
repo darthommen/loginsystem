@@ -8,7 +8,7 @@ body {
 }
 
 .wrapper {
-    margin: 0 auto ;
+    margin: 0 auto 0 100px;
     width: 1000px;
 }
 
@@ -25,7 +25,6 @@ ul {
 ul li {
     list-style: none;
     display: inline-block;
-    float: left;
     line-height: 100px;
 }
 
@@ -38,7 +37,7 @@ ul li a {
 }
 
 ul li a:hover {
-    color: red;
+    color: blue;
 }
 
 
