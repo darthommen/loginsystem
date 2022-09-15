@@ -3,8 +3,9 @@
 ?>
   <div class="wrapper">
     <section class="brødtekst">
-      <h1>Bla-di-bla</h1>
-      Her er indholdet.
+      <h1>Foreningen Rom</h1>
+      <h3>Vedtægter</h3>
+      Bla-di-bla!
     </section>
   </div>
 
