@@ -12,6 +12,31 @@
             <button type="submit" name="submit">Sign Up</button><br>
           </form>
         </div>
+        <?php
+          if (isset($_GET["error"])) {
+            if($_GET["error"] == "emptyinput") {
+              echo "<p>Udfyld alle felter!</p>";
+            }
+            
+            else if($_GET["error"] == "invaliduid") {
+              echo "<p>Ugyldigt brugernavn!</p>";
+            }
+            else if($_GET["error"] == "passwordsdontmatch") {
+              echo "<p>Passwords matcher ikke!</p>";
+            }
+            else if($_GET["error"] == "usernametaken") {
+              echo "<p>Brugernavn optaget, vælg et andet!</p>";
+            }
+            else if($_GET["error"] == "stmtfailed") {
+              echo "<p>Noget gik galt, prøv igen!</p>";
+            }
+            else if($_GET["error"] == "none") {
+              echo "<p>Du har signed up!</p>";
+            }
+          
+          }      
+        
+        ?>
      </section>
   
 

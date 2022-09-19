@@ -1,3 +1,7 @@
+<?php
+  session_start();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,9 +16,17 @@
   <nav>
     <div class="wrapper">
       <ul>
-          <li><a href="index.php">Forside</a></li>
-          <li><a href="signup.php">Sign up</a></li>
-          <li><a href="login.php">Log in</a></li>
+        <li><a href="index.php">Forside</a></li>
+        <?php
+          if (isset($_SESSION["username"])) {
+            echo "<li><a href='profile.php'>Profil</a></li>";
+            echo "<li><a href='logout.php'>Log ud</a></li>";
+          } 
+          else {    
+            echo "<li><a href='signup.php'>Sign up</a></li>";
+            echo "<li><a href='login.php'>Log in</a></li>";
+          }
+        ?>  
       </ul>
     </div>
   </nav>

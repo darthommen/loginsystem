@@ -20,13 +20,13 @@ if (isset($_POST["submit"])) {
         exit();
     }
 
-    if (pwdMatch($pws, $pwdRepeat) !== false) {
+    if (pwdMatch($pwd, $pwdRepeat) !== false) {
         header("location: ../signup.php?error=passwordsdontmatch");
         exit();
     }
 
-    if (uidExits($conn, $username) !== false) {
-        header("location: ../signup.php?usernametaken");
+    if (uidExists($conn, $username) !== false) {
+        header("location: ../signup.php?error=usernametaken");
         exit();
     }
 
