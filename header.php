@@ -15,12 +15,20 @@
 <body>
   <nav>
     <div class="wrapper">
+      <?php
+        if (isset($_SESSION["username"])) {
+          echo "<p class='log'>Du er nu logget ind som " . $_SESSION["username"] ."</p>";
+        }
+        else {
+          echo "<p class='log'>Du er ikke logget ind</p>";
+        }
+      ?>
       <ul>
         <li><a href="index.php">Forside</a></li>
         <?php
           if (isset($_SESSION["username"])) {
             echo "<li><a href='profile.php'>Profil</a></li>";
-            echo "<li><a href='logout.php'>Log ud</a></li>";
+            echo "<li><a href='includes/logout.inc.php'>Log ud</a></li>";
           } 
           else {    
             echo "<li><a href='signup.php'>Sign up</a></li>";
@@ -30,5 +38,3 @@
       </ul>
     </div>
   </nav>
-
-  

@@ -2,7 +2,7 @@
   include_once 'header.php' ;
 ?>
   <div class="wrapper">
-    <section class="brødtekst">
+    <section class="brdtekst">
       <h1>Foreningen Rom</h1>
       <h3>Vedtægter</h3>
       Bla-di-bla!

@@ -23,10 +23,7 @@
             else if($_GET["error"] == "wronglogin2") {
               echo "<p>Forkert brugernavn eller password!</p>";
             }
-            else if($_GET["error"] == "none") {
-              echo "<p>Du har signed up!</p>";
-            }
-          
+                    
           }      
         
         ?>
